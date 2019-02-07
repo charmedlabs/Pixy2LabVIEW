@@ -1,0 +1,5 @@
+-5000 Sync byte not received.
+-5001 Type mismatch.
+-5002 Checksum mismatch.
+-5003 Unknown feature type.
+-5004 Time out waiting for message.

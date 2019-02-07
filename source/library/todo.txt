@@ -1,0 +1,12 @@
+TODOs
+
+-SPI Interface (implement) (Need to Parse out data!)
+-RS-232 interface (implement)
+
+-parse barcodes (implement) DONE
+
+-plotting vectors (bug) DONE
+
+-plot barcodes (implement)
+
+-organize and name VIs more logically (cleanup)
