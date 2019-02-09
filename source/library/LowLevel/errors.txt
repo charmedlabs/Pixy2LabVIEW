@@ -3,3 +3,4 @@
 -5002 Checksum mismatch.
 -5003 Unknown feature type.
 -5004 Time out waiting for message.
+-5005 Pixy2 is incompatible with RS-232 and USB interfaces. Use MXP connector instead.

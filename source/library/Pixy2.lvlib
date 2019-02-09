@@ -31,4 +31,5 @@
 	<Item Name="Set Lamp.vi" Type="VI" URL="../Set Lamp.vi"/>
 	<Item Name="Set LED.vi" Type="VI" URL="../Set LED.vi"/>
 	<Item Name="Get Resolution.vi" Type="VI" URL="../Get Resolution.vi"/>
+	<Item Name="Set Servos.vi" Type="VI" URL="../Set Servos.vi"/>
 </Library>
