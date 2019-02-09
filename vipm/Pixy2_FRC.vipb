@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-06 21:35:30" Modified_Date="2019-02-09 00:11:09" Creator="David" Comments="" ID="4e1c47169cc38941f0d030d8d79e18f0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-06 21:35:30" Modified_Date="2019-02-09 09:28:49" Creator="David" Comments="" ID="c6b6a5842547a984736269781059648e">
   <Library_General_Settings>
     <Package_File_Name>Charmed_Labs_lib_Pixy2_FRC</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\source</Library_Source_Folder>
     <Library_Output_Folder>..\installer</Library_Output_Folder>
@@ -32,11 +32,12 @@
 
 Interfaces supported:
 - I2C
-- SPI</Description>
+- SPI
+- UART</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/charmedlabs/Pixy2LabVIEW</URL>
-      <Release_Notes>Added support for SPI interface.</Release_Notes>
+      <Release_Notes>Added support for UART interface.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -123,9 +124,6 @@ Interfaces supported:
       </Namespace_Overrides>
       <Exclusions>
         <Path>library/LowLevel/errors.txt</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>deviceSupport/FRC/UART</Path>
       </Exclusions>
       <Exclusions>
         <Path>todo.txt</Path>
@@ -285,7 +283,7 @@ Interfaces supported:
         <Path>..\source\Display</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>54ED81C133312EEF75B3974DFDE17061</GUID>
+      <GUID>9095ABCBCCA65B77B3696EC26A68763A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -334,7 +332,7 @@ Interfaces supported:
         <Path>..\source\library\Utilities\Plot Vectors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>782C41AF08FA13FD61C6D2C50603CF87</GUID>
+      <GUID>D13565DEF857A6A46DA45D8BFD6D6B50</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -411,7 +409,7 @@ Interfaces supported:
         <Path>..\source\library\Set Servos.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5F5E2602B2425A089FB8AA5EA782BE10</GUID>
+      <GUID>0EACF6435663083BD3465B000E6ABF19</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -460,7 +458,21 @@ Interfaces supported:
         <Path>..\source\deviceSupport\FRC\SPI\Init.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E22238B008A07FB33CCB7E20962B726C</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Init.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\source\deviceSupport\FRC\UART\Init.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>E060CE5C2D098685E18C8C27BD44F6BC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
