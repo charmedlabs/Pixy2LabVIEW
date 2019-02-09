@@ -28,8 +28,16 @@
 	</Item>
 	<Item Name="CCC.vi" Type="VI" URL="../CCC.vi"/>
 	<Item Name="Line Tracking.vi" Type="VI" URL="../Line Tracking.vi"/>
+	<Item Name="Get Resolution.vi" Type="VI" URL="../Get Resolution.vi"/>
+	<Item Name="Get RGB.vi" Type="VI" URL="../Get RGB.vi"/>
+	<Item Name="Get FPS.vi" Type="VI" URL="../Get FPS.vi"/>
 	<Item Name="Set Lamp.vi" Type="VI" URL="../Set Lamp.vi"/>
 	<Item Name="Set LED.vi" Type="VI" URL="../Set LED.vi"/>
-	<Item Name="Get Resolution.vi" Type="VI" URL="../Get Resolution.vi"/>
 	<Item Name="Set Servos.vi" Type="VI" URL="../Set Servos.vi"/>
+	<Item Name="Set Mode.vi" Type="VI" URL="../Set Mode.vi"/>
+	<Item Name="Set Default Turn.vi" Type="VI" URL="../Set Default Turn.vi"/>
+	<Item Name="Set Next Turn.vi" Type="VI" URL="../Set Next Turn.vi"/>
+	<Item Name="Set Vector.vi" Type="VI" URL="../Set Vector.vi"/>
+	<Item Name="Reverse Vector.vi" Type="VI" URL="../Reverse Vector.vi"/>
+	<Item Name="Set Brightness.vi" Type="VI" URL="../Set Brightness.vi"/>
 </Library>
